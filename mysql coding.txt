@@ -1,0 +1,21 @@
+create database mall; 
+use mall;
+ create table sign
+ (Id varchar(30),
+ Password varchar(30),
+ Name varchar(30),
+ Phone varchar(30),
+ Address varchar(50));
+
+ create table Buy_Phone
+ (Id varchar(30),
+ Name varchar(30),
+ Phone varchar(30),
+ Address varchar(50),
+ Price varchar(30),
+ Phone_Name varchar(30));
+
+ create table payment
+ (Bank varchar(30),
+ Card_no varchar(30),
+ PIN varchar(30));
